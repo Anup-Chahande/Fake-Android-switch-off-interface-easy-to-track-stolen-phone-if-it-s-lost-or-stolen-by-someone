@@ -1,5 +1,5 @@
 follow Steps to run this code :-
-1. Install Android studio
+1. Download and Install Android studio
 2. download 27 Api emulator in Android studio
 3. open FakeStandby-master-1.Zip/Rar in Android studio
 4. Click on run
