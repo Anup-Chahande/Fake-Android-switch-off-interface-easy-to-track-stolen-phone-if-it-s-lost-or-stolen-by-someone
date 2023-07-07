@@ -1,0 +1,29 @@
+{
+    "Description of the app for F-Droid Store. One sentence, no more than 30-50 chars, no trailing punctuation, focus on actions what the users does with the app, e.g. \"Read and send emails\" instead of \"Email client\".": {
+        "store_short_description": "Desligue sua tela enquanto mantém aplicativos ativos"
+    },
+    "Description of the app for F-Droid Store. Can conatin simple html.": {
+        "store_full_description": "\n<p>\n  A maioria dos smartphones nos dias de hoje possuem baterias de longa duração, mas quem não quer que o celular dure só mais uma horinha?\n  Enquanto usa um aplicativo, você talvez não precise usar seu display. Então, por que não desligá-lo? <b>Até 20%</b> da sua bateria\n  é gasta pelo display.\n</p>\n\n<p>\n  FakeStandby é um aplicativo Android que desliga sua tela enquanto deixa seus outros apps rodando. Isso inclue os trabalhos em primeiro plano, o que significa que\n  você pode continuar\n\t\n  <ul>\n    <li>ouvindo música no YouTube</li>\n    <li>permanecendo on-line no WhatsApp ou em outros apps de mensagem de texto/li> \n    <li>rodando seu jogo favorito</li>\n  </ul>\n\n  tudo com sua tela desligada.\n</p>"
+    },
+    "Changelog for version 1.2.1": {
+        "store_changelog_4": "+ Adicionado link para o website, link para o código fonte e notas de Licença para o app."
+    },
+    "Changelog for version 1.2.2": {
+        "store_changelog_5": "+ Agora botões de navegação na tela (tela inicial, voltar e apps recentes) também são cobertos pelo preto.\n+ Quando seu aparelho tiver uma indentação, as partes próximas a ela também provavelmente estarão cobertas.\n+ A barra de navegação nas configurações está agora com o tema apropriado. \n+ Estabilidade do uso em modo retrato melhorada."
+    },
+    "Changelog vor version 1.2.3": {
+        "store_changelog_6": "+ Agora o aplicativo está disponível em Espanhol."
+    },
+    "Changelog for version 1.3.0": {
+        "store_changelog_7": "+ O app agora está disponível nessas 6 línguas:\n  - Chinês (simplificado, 60%)\n  - Francês (76%)\n  - Hindi (76%)\n  - Persa (17%)\n  - Português (76%)\n  - Russo (63%)\n+ Adicionada uma configuração para habilitar uma notificação persistente, em dispositivos que não suportam botões de configuração rápida.\n+ Adicionada uma opção para habilitar o standby falso ao ligar.\n+ O app agora habilita um bloqueio de acordar, isso deve resolver vários problemas.\n+ Adicionadas atividades exportadas para iniciar e parar o standby falso. Dessa forma é possível iniciar o overlay em apps de automação.\n(Isto não foi bem testado, por favor reporte quaisquer problemas com isso)\n+ Adicionado Fastlane e localizado e screenshots de dispositivos específicos.\n\n- Removido um botão redundante no diálogo, que sugere reiniciar o dispositivo.\n\n* Corrigido o problema #11\n* Fechado o problema #12"
+    },
+    "Changelog for version 1.3.1": {
+        "store_changelog_8": "+ Importadas traduções do PoEditor\n+ Adicionado Chinês (tradicional), Ucraniano, Polaco, Italiano, Indonésio"
+    },
+    "Changelog for version 1.3.2": {
+        "store_changelog_9": "+ Acionada a língua árabe. O app agora está disponível em 18 idiomas.\n+ Importadas todas as traduções da plataforma de tradução.\n+ Feito o nome do app traduzível.\n+ Obrigado a @Gitoffthelawn pelos pull requests para melhorar a gramática e "
+    },
+    "Changelog for version 1.3.3": {
+        "store_changelog_10": "* Mudada a versão alvo do Android para Android 11."
+    }
+}

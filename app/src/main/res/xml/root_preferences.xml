@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:key="overlay_category"
+        app:title="@string/settings_category_overlay_options">
+
+        <MultiSelectListPreference
+            app:defaultValue="@array/close_options_values"
+            app:entries="@array/close_options_entries"
+            app:entryValues="@array/close_options_values"
+            app:key="setting_close_options"
+            app:title="@string/close_option_title"
+            app:summary="@string/close_option_summary" />
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="setting_show_notification"
+            app:title="@string/settings_show_notification_title"
+            app:summary="@string/settings_show_notification_summary" />
+
+        <SwitchPreference
+            app:defaultValue="true"
+            app:key="setting_secure_mode"
+            app:title="@string/setting_start_secure_mode_title"
+            app:summary="@string/setting_start_secure_mode_summary" />
+        
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="setting_start_on_boot"
+            app:title="@string/setting_start_on_boot_title"
+            app:summary="@string/setting_start_on_boot_summary" />
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="setting_invert_overlay_color"
+            app:title="@string/setting_invert_overlay_color_title"
+            app:summary="@string/setting_invert_overlay_color_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="open_settings_category"
+        app:title="@string/settings_category_open_other">
+
+        <Preference
+            app:title="@string/open_accessibility_settings_title"
+            app:summary="@string/open_accessibility_settings_description"
+            app:icon="@drawable/ic_baseline_open_in_new_24"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

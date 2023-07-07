@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="close_options_values">
+        <item>tap_four</item>
+        <item>swipe</item>
+    </string-array>
+
+    <string-array name="close_options_entries">
+        <item>@string/close_option_tap_four</item>
+        <item>@string/close_option_swipe</item>
+    </string-array>
+</resources>
